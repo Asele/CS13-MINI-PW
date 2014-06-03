@@ -6,7 +6,7 @@
 
 ANS="-a"
 
-if [ $1 == "-"? ] ; then
+if [[ $1 == -* ]] ; then
     ANS=$1
     shift
 fi
