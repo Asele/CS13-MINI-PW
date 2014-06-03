@@ -1,5 +1,6 @@
 #!/bin/bash -x
 
+# Task 2.7a
 # Write a script that will create a directory which will contain data
 # which will be shared across members of some project group.
 
