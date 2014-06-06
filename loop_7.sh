@@ -1,11 +1,12 @@
 #!/bin/bash -x
 
+# Task 2.7a
 # Write a script that will create a directory which will contain data
 # which will be shared across members of some project group.
 
 ANS="-a"
 
-if [ $1 == "-"? ] ; then
+if [[ $1 == -* ]] ; then
     ANS=$1
     shift
 fi
