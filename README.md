@@ -1,3 +1,3 @@
 CS13-MINI-PW
 ============
-Tasks done during first year of studies
+Tasks done during the first year of studies
