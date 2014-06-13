@@ -11,9 +11,8 @@ until false ; do
 	
 	# compare ANS with following options
 	case $ANS in
-	
-	    # if ANS = new
-		change) echo $'\nDirectory to go:' #może niech sprawdza bierzącą dir i wtedy ew. działa, lub po wpisaniu całej ścieżki
+
+		change) echo $'\nDirectory to go:'
 		read NEW
 		cd "$NEW" 2> /dev/null
 		;;
