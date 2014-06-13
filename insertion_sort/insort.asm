@@ -1,5 +1,4 @@
 	global insort
-	extern printf
 	section .text
 insort:
 	mov	[leng], rsi
